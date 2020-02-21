@@ -16,7 +16,6 @@ public class AuditModuleRestful {
 	
 	@RequestMapping(value="", method=RequestMethod.POST)
 	public void create(HttpServletRequest request, HttpServletResponse response){
-		service.say();
 	}
 	
 	@RequestMapping(value="/{moduleId}", method=RequestMethod.GET)
